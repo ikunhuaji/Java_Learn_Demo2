@@ -5,8 +5,18 @@
   <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Hello World!" %></h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+
+<%
+  for (int i = 0; i < 3; i++) {
+%>
+tmp<br>
+<%
+  }
+%>
+<%= 2 + 3%><br>
+<%="2"+"3"%><br>
+<%="a"+"b"%><br>
+<% out.println("111"); %>
+
 </body>
 </html>
